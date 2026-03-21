@@ -1,11 +1,21 @@
-import overcoatImg from "@/assets/products/overcoat.jpg";
-import sweaterImg from "@/assets/products/sweater.jpg";
-import trousersImg from "@/assets/products/trousers.jpg";
-import shirtImg from "@/assets/products/shirt.jpg";
-import blouseImg from "@/assets/products/blouse.jpg";
-import blazerImg from "@/assets/products/blazer.jpg";
-import jeansImg from "@/assets/products/jeans.jpg";
-import cardiganImg from "@/assets/products/cardigan.jpg";
+// import overcoatImg from "@/assets/products/overcoat.jpg";
+// import sweaterImg from "@/assets/products/sweater.jpg";
+// import trousersImg from "@/assets/products/trousers.jpg";
+// import shirtImg from "@/assets/products/shirt.jpg";
+// import blouseImg from "@/assets/products/blouse.jpg";
+// import blazerImg from "@/assets/products/blazer.jpg";
+// import jeansImg from "@/assets/products/jeans.jpg";
+// import cardiganImg from "@/assets/products/cardigan.jpg";
+
+// Placeholder image URLs - replace with actual product images
+const overcoatImg = "https://images.unsplash.com/photo-1539533057440-7a601feb0d0d?w=500&h=500&fit=crop";
+const sweaterImg = "https://images.unsplash.com/photo-1621572163474-acd42f5151d1?w=500&h=500&fit=crop";
+const trousersImg = "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop";
+const shirtImg = "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500&h=500&fit=crop";
+const blouseImg = "https://images.unsplash.com/photo-1609689612129-a9cf0c10fa57?w=500&h=500&fit=crop";
+const blazerImg = "https://images.unsplash.com/photo-1539533057440-7a601feb0d0d?w=500&h=500&fit=crop";
+const jeansImg = "https://images.unsplash.com/photo-1542272903882-02cacbb306e6?w=500&h=500&fit=crop";
+const cardiganImg = "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&h=500&fit=crop";
 
 export interface Product {
   id: string;

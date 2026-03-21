@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-import heroImg from "@/assets/hero-fashion.jpg";
+
+// import heroImg from "@/assets/hero-fashion.jpg";
+const heroImg = "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=800&fit=crop";
 
 export default function Index() {
   return (
